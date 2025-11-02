@@ -1,0 +1,3 @@
+dataset,nodes,edges,sccCount,timeSCC,timeTopo,timeSP,timeLP
+data/large_3.json,40,187,1,1013400,11500,33000,17800
+data/small_1.json,6,2,6,2631100,1776800,1579500,695500
