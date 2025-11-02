@@ -1,4 +1,18 @@
 # DAA_assignment4
+How to run the project:
+1) Build it
+mvn package
+2) You may run a single data set:
+java -cp target/smart-city-scheduler-1.0-SNAPSHOT-fat.jar cli.SCCRunner data/small_1.json
+java -cp target/smart-city-scheduler-1.0-SNAPSHOT-fat.jar cli.SCCRunner data/small_2.json
+java -cp target/smart-city-scheduler-1.0-SNAPSHOT-fat.jar cli.SCCRunner data/small_3.json
+and others like this;
+3) You may generate datasets:
+java -cp target/smart-city-scheduler-1.0-SNAPSHOT-fat.jar cli.SCCRunner generate
+4) You may run all datasets (summary will be written in /results/batch_summary.csv):
+java -cp target/smart-city-scheduler-1.0-SNAPSHOT-fat.jar cli.SCCBatchRunner
+Plots are in data/results/###.png
+
 Assignment 4: Graph Algorithms Implementation & Analysis
 Strongly Connected Components, Topological Ordering & DAG Shortest Paths
 Student: Bizinskiy Timur
